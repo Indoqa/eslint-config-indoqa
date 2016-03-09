@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-indoqa",
+  "version": "0.0.1",
+  "description": "Eslint rules for Indoqa react projects, based on eslint-config-airbnb.",
+  "main": "index.js",
+  "author": "Indoqa",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies" :{ 
+    "eslint-config-airbnb": "3.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "2.2.0",
+    "eslint-plugin-import": "0.12.1",
+    "eslint-plugin-react": "4.0.0"
+  }
+}
