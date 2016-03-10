@@ -1,6 +1,3 @@
-# Indoqa react eslint settings
-
-Eslint rules for Indoqa react projects, based on eslint-config-airbnb. 
 To use in a specific project, follow these steps:
 
 ## package.json
