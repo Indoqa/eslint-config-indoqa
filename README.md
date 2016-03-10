@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/@cycle/core.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-indoqa) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
+[![NPM](https://nodei.co/npm/eslint-config-indoqa.png?compact=true)](https://npmjs.org/package/eslint-config-indoqa)
 
 ## Usage
 
