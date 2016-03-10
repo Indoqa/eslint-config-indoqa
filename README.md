@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/eslint-config-indoqa.png?compact=true)](https://npmjs.org/package/eslint-config-indoqa)
+[![npm version](https://badge.fury.io/js/eslint-config-indoqa.svg)](https://www.npmjs.com/package/eslint-config-indoqa)
 
 ## Usage
 
