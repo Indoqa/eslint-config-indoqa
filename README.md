@@ -1,10 +1,8 @@
-[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-indoqa) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
+[![npm](https://img.shields.io/npm/v/@cycle/core.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-indoqa) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
 
-To use in a specific project, follow these steps:
+## Usage
 
-## package.json
-
-Include eslint-config-indoqa and peer dependecies:
+Include eslint-config-indoqa and peer dependecies in package.json:
 
 ```
 "dependencies" :{ 
@@ -16,9 +14,7 @@ Include eslint-config-indoqa and peer dependecies:
   },
 ```
 
-## .eslintrc
-
-The only thing needed is to point to this config module.
+Point to 'indoqa' in .eslintrc. No further configuration needed.
 
 ```
 {
