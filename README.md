@@ -2,15 +2,14 @@
 
 ## Usage
 
-Include eslint-config-indoqa and peer dependecies in package.json:
+Depend on eslint-config-indoqa and make sure peer dependecies are available:
 
 ```
 "dependencies" :{ 
-    "eslint": "2.2.0",
-    "eslint-config-airbnb": "3.1.0",
-    "eslint-config-indoqa": "<version>",
-    "eslint-plugin-import": "0.12.1",
-    "eslint-plugin-react": "4.0.0"
+    "eslint-config-indoqa": "<version>",  // this config, including airbnb
+    "babel-eslint": "5.0.0",              // used for parsing
+    "eslint": "2.2.0",                    // eslint v2 -> used by editor
+    "gulp-eslint": "2.0.0"                // to make sure 'gulp eslint' also uses eslint v2
   },
 ```
 
