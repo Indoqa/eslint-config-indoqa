@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-indoqa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eslint rules for Indoqa react projects, based on eslint-config-airbnb.",
   "main": "index.js",
   "author": "Indoqa",
@@ -9,10 +9,6 @@
     "type": "git",
     "url": "https://github.com/Indoqa/eslint-config-indoqa"
   },
-  "scripts": {
-    "lint": "eslint .",
-    "readme": "node ./node_modules/.bin/node-readme"
-  },
   "dependencies": {
     "eslint-config-airbnb": "3.1.0"
   },
@@ -20,8 +16,5 @@
     "eslint": "2.2.0",
     "eslint-plugin-import": "0.12.1",
     "eslint-plugin-react": "4.0.0"
-  },
-  "devDependencies": {
-    "node-readme": "0.1.9"
   }
 }

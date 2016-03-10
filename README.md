@@ -1,9 +1,27 @@
-![npm](https://www.npmjs.com/package/eslint-config-indoqa) ![license](https://img.shields.io/npm/l/eslint-config-indoqa.svg) ![github-issues](https://img.shields.io/github/issues/Indoqa/eslint-config-indoqa.svg)  ![](https://david-dm.org/Indoqa/eslint-config-indoqa/status.svg) ![](https://david-dm.org/Indoqa/eslint-config-indoqa/dev-status.svg)
+[![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-indoqa) [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0)
 
-Eslint rules for Indoqa react projects, based on eslint-config-airbnb.
+To use in a specific project, follow these steps:
 
-## Features
+## package.json
 
+Include eslint-config-indoqa and peer dependecies:
 
-## Install
+```
+"dependencies" :{ 
+    "eslint": "2.2.0",
+    "eslint-config-airbnb": "3.1.0",
+    "eslint-config-indoqa": "<version>",
+    "eslint-plugin-import": "0.12.1",
+    "eslint-plugin-react": "4.0.0"
+  },
+```
 
+## .eslintrc
+
+The only thing needed is to point to this config module.
+
+```
+{
+  "extends" : ["indoqa"]
+}
+```
