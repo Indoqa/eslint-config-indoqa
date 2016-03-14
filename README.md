@@ -4,7 +4,7 @@
 
 Depend on eslint-config-indoqa in package.json and make sure peer dependecies are available:
 
-```
+```json
 "dependencies" :{ 
     "eslint-config-indoqa": "<version>",  // this config, including airbnb, react and import modules
     "babel-eslint": "5.0.0",              // peer: used for parsing
@@ -15,7 +15,7 @@ Depend on eslint-config-indoqa in package.json and make sure peer dependecies ar
 
 Point to 'indoqa' in .eslintrc. No further configuration needed.
 
-```
+```json
 {
   "extends" : ["indoqa"]
 }
