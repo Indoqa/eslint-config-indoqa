@@ -6,20 +6,23 @@ module.exports = {
   ],
   "extends" : ["airbnb"],
   "rules": {
+    // disable arrow-body-style: allow consistent code formatting using {}
     "arrow-body-style": 0,
+    // to be discussed
     "comma-dangle": 0,
-    "curly": 0,
+    // disable capIsNew as immutable expects const a = Record() et al.
     "new-cap": [2, {"capIsNew": false, "newIsCap": true}],
-    "no-param-reassign": 0,
-    "no-shadow": 0,
+    // disable object-curly-spacing: it is a matter of taste
     "object-curly-spacing": [2, "never"],
-    "object-shorthand": 0,
+    // disable padded-blocks: it is a matter of taste
     "padded-blocks": 0,
+    // add import plugin rules
     "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
     "import/named": 2,
     "import/namespace": 2,
     "import/default": 2,
     "import/export": 2,
+    // disable harsh 'prefer-stateless-function': react components may "grow" during development
     "react/prefer-stateless-function": 0
   },
   "globals": {
