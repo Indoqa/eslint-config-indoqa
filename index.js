@@ -6,6 +6,7 @@ module.exports = {
   ],
   "extends" : ["airbnb"],
   "rules": {
+    "arrow-body-style": 0,
     "comma-dangle": 0,
     "curly": 0,
     "new-cap": [2, {"capIsNew": false, "newIsCap": true}],
@@ -19,6 +20,7 @@ module.exports = {
     "import/namespace": 2,
     "import/default": 2,
     "import/export": 2,
+    "react/prefer-stateless-function": 0
   },
   "globals": {
     "after": false,
