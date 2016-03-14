@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/eslint-config-indoqa.svg)](https://www.npmjs.com/package/eslint-config-indoqa)
+[![Latest version on npm](https://badge.fury.io/js/eslint-config-indoqa.svg)](https://www.npmjs.com/package/eslint-config-indoqa)
 
 ## Usage
 
