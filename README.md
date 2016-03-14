@@ -4,8 +4,8 @@
 
 Depend on eslint-config-indoqa in package.json and make sure peer dependecies are available:
 
-```json
-"dependencies" :{ 
+```javascript
+"dependencies": { 
     "eslint-config-indoqa": "<version>",  // this config, including airbnb, react and import modules
     "babel-eslint": "5.0.0",              // peer: used for parsing
     "eslint": "2.2.0",                    // peer: eslint v2 -> used by editor
