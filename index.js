@@ -10,8 +10,14 @@ module.exports = {
     "arrow-body-style": 0,
     // to be discussed
     "comma-dangle": 0,
+    // disable dot-notation: allow things like req.headers['Accept'] = 'application/json'
+    "dot-notation": 0,
+    // max-len: allow 135 chars, similar to our java formatter
+    "max-len": [2, {"code": 135}],
     // disable capIsNew as immutable expects const a = Record() et al.
     "new-cap": [2, {"capIsNew": false, "newIsCap": true}],
+    // disable no-param-reassign: redux reducers with immutable in current format need param reassign
+    "no-param-reassign": 0,
     // disable object-curly-spacing: it is a matter of taste
     "object-curly-spacing": [2, "never"],
     // disable padded-blocks: it is a matter of taste
