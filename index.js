@@ -22,12 +22,16 @@ module.exports = {
     "object-curly-spacing": [2, "never"],
     // disable padded-blocks: it is a matter of taste
     "padded-blocks": 0,
+    // disable all semicolons
+    "semi": [2, "never"],
     // add import plugin rules
     "import/no-unresolved": [2, {"commonjs": true, "amd": true}],
     "import/named": 2,
     "import/namespace": 2,
     "import/default": 2,
     "import/export": 2,
+    // enable allowArrowFunctions in jsx props
+    "react/jsx-no-bind": [2, {"allowArrowFunctions": true}],
     // disable harsh 'prefer-stateless-function': react components may "grow" during development
     "react/prefer-stateless-function": 0
   },
