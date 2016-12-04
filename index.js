@@ -15,6 +15,8 @@ module.exports = {
     "comma-dangle": 0,
     // disable dot-notation: allow things like req.headers['Accept'] = 'application/json'
     "dot-notation": 0,
+    // allow requires
+    "global-require": 0,
     // max-len: allow 135 chars, similar to our java formatter
     "max-len": [2, {"code": 135}],
     // disable capIsNew as immutable expects const a = Record() et al.
@@ -40,10 +42,8 @@ module.exports = {
     "react/jsx-filename-extension": [1, { "extensions": [".react.js", "index.js"] }],
     // disable harsh 'prefer-stateless-function': react components may "grow" during development
     "react/prefer-stateless-function": 0,
-    // calling properties 'danger...' is enough
-    "react/no-danger": 0,
-    // allow .react.js
-    "react/jsx-filename-extension": [1, { "extensions": [".react.js"] }],
+    // calling properties 'danger...' is enough warning
+    "react/no-danger": 0
   },
   "globals": {
     "after": false,

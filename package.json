@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/Indoqa/eslint-config-indoqa"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "dependencies": {
     "eslint-config-airbnb": "^13.0.0"
   },
