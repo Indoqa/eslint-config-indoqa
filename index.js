@@ -1,14 +1,13 @@
 module.exports = {
+  "extends" : ["airbnb"],
   "parser"  : "babel-eslint",
   "plugins": [
     "import",
     "react"
   ],
   "env": {
-    // default environment
     "browser": true
   },
-  "extends" : ["airbnb"],
   "rules": {
     // disable arrow-body-style: allow consistent code formatting using {}
     "arrow-body-style": 0,
@@ -34,7 +33,7 @@ module.exports = {
     "import/namespace": 2,
     "import/default": 2,
     "import/export": 2,
-    "import/extensions": [0, "never"]
+    "import/extensions": [0, "never"],
     // enable allowArrowFunctions in jsx props
     "react/jsx-no-bind": [2, {"allowArrowFunctions": true}],
     // allowed filename extensions for JSX
