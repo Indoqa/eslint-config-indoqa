@@ -4,6 +4,10 @@ module.exports = {
     "import",
     "react"
   ],
+  "env": {
+    // default environment
+    "browser": true
+  },
   "extends" : ["airbnb"],
   "rules": {
     // disable arrow-body-style: allow consistent code formatting using {}
@@ -30,10 +34,17 @@ module.exports = {
     "import/namespace": 2,
     "import/default": 2,
     "import/export": 2,
+    "import/extensions": [0, "never"]
     // enable allowArrowFunctions in jsx props
     "react/jsx-no-bind": [2, {"allowArrowFunctions": true}],
+    // allowed filename extensions for JSX
+    "react/jsx-filename-extension": [1, { "extensions": [".react.js", "index.js"] }],
     // disable harsh 'prefer-stateless-function': react components may "grow" during development
-    "react/prefer-stateless-function": 0
+    "react/prefer-stateless-function": 0,
+    // calling properties 'danger...' is enough
+    "react/no-danger": 0,
+    // allow .react.js
+    "react/jsx-filename-extension": [1, { "extensions": [".react.js"] }],
   },
   "globals": {
     "after": false,
@@ -58,5 +69,3 @@ module.exports = {
     }
   }
 }
-
-
