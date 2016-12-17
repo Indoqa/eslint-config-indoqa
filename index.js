@@ -11,6 +11,8 @@ module.exports = {
   "rules": {
     // disable arrow-body-style: allow consistent code formatting using {}
     "arrow-body-style": 0,
+    // enforce parens if there is only a single argument as well
+    "arrow-parens": [1, "always"],
     // to be discussed
     "comma-dangle": 0,
     // disable dot-notation: allow things like req.headers['Accept'] = 'application/json'
@@ -36,10 +38,15 @@ module.exports = {
     "import/default": 2,
     "import/export": 2,
     "import/extensions": [0, "never"],
+    "import/prefer-default-export": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/href-no-hash": 0,
+    // not there yet
+    "react/forbid-prop-types": 0,
     // enable allowArrowFunctions in jsx props
     "react/jsx-no-bind": [2, {"allowArrowFunctions": true}],
     // allowed filename extensions for JSX
-    "react/jsx-filename-extension": [1, { "extensions": [".react.js", "index.js"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".react.js", "index.js", "redux.js"] }],
     // disable harsh 'prefer-stateless-function': react components may "grow" during development
     "react/prefer-stateless-function": 0,
     // calling properties 'danger...' is enough warning
