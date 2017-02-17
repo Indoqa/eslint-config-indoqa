@@ -13,8 +13,13 @@ module.exports = {
     "arrow-body-style": 0,
     // enforce parens if there is only a single argument as well
     "arrow-parens": [1, "always"],
-    // to be discussed
-    "comma-dangle": 0,
+    'comma-dangle': ['error', {
+      arrays: 'never',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'never',
+    }],
     // disable dot-notation: allow things like req.headers['Accept'] = 'application/json'
     "dot-notation": 0,
     // allow requires
