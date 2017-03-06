@@ -6,7 +6,8 @@ module.exports = {
     "react"
   ],
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "rules": {
     // disable arrow-body-style: allow consistent code formatting using {}
