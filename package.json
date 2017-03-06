@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-indoqa",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Eslint rules for Indoqa react projects, based on eslint-config-airbnb.",
   "main": "index.js",
   "author": "Indoqa",
