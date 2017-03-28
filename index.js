@@ -1,5 +1,5 @@
 module.exports = {
-  "extends" : ["airbnb"],
+  "extends" : ["airbnb", "plugin:flowtype/recommended"],
   "parser"  : "babel-eslint",
   "plugins": [
     "import",
@@ -56,7 +56,9 @@ module.exports = {
     // disable harsh 'prefer-stateless-function': react components may "grow" during development
     "react/prefer-stateless-function": 0,
     // calling properties 'danger...' is enough warning
-    "react/no-danger": 0
+    "react/no-danger": 0,
+    // Flow.
+    "flowtype/space-after-type-colon": 0, // Prettier ftw.
   },
   "globals": {
     "after": false,
