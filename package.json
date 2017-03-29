@@ -24,6 +24,7 @@
   },
   "peerDependencies": {
     "eslint": "^3.15.0",
+    "eslint-config-indoqa": "^1.4.0",    
     "eslint-plugin-flowtype": "^2.30.3",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
