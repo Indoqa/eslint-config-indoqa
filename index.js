@@ -70,6 +70,9 @@ module.exports = {
     // not there yet
     "react/forbid-prop-types": 0,
 
+    // do not enforce prop-types (--> use flow props instead)
+    "react/prop-types": 0,
+
     // enable allowArrowFunctions in jsx props
     "react/jsx-no-bind": [2, {"allowArrowFunctions": true}],
 
@@ -95,7 +98,7 @@ module.exports = {
     "it": false,
     "require": false
   },
-  
+
   "settings": {
     "import/ignore": [
       "node_modules"
