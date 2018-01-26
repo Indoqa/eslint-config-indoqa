@@ -48,6 +48,9 @@ module.exports = {
     // disable object-curly-spacing: it is a matter of taste
     "object-curly-spacing": [2, "never"],
 
+    // disable enforcement of new lines for objects (not necessary for short objects)
+    "object-curly-newline": 0,
+
     // disable padded-blocks: it is a matter of taste
     "padded-blocks": 0,
 
@@ -63,9 +66,11 @@ module.exports = {
     "import/extensions": [0, "never"],
     "import/prefer-default-export": 0,
 
-    // jsx
+    // jsx (disable some of the airbnb rules)
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
 
     // not there yet
     "react/forbid-prop-types": 0,
