@@ -83,10 +83,7 @@ module.exports = {
 
     // do not enforce prop-types (--> use flow props instead)
     "react/prop-types": 0,
-    "react/default-props-match-prop-types": 0
-
-    // enable allowArrowFunctions in jsx props
-    "react/jsx-no-bind": [2, {"allowArrowFunctions": true}],
+    "react/default-props-match-prop-types": 0,
 
     // allowed filename extensions for JSX
     "react/jsx-filename-extension": [1, { "extensions": [".react.js", "index.js", "redux.js"] }],
