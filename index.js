@@ -33,6 +33,9 @@ module.exports = {
     // disable dot-notation: allow things like req.headers['Accept'] = 'application/json'
     "dot-notation": 0,
 
+    // nasty for JSX
+    "function-paren-newline": 0,
+
     // allow requires
     "global-require": 0,
 
@@ -44,6 +47,9 @@ module.exports = {
 
     // disable no-param-reassign: redux reducers with immutable in current format need param reassign
     "no-param-reassign": 0,
+
+    // restricts accessing e.g. history -> what's the alternative?
+    "no-restricted-globals": 0,
 
     // disable object-curly-spacing: it is a matter of taste
     "object-curly-spacing": [2, "never"],
@@ -77,6 +83,7 @@ module.exports = {
 
     // do not enforce prop-types (--> use flow props instead)
     "react/prop-types": 0,
+    "react/default-props-match-prop-types": 0
 
     // enable allowArrowFunctions in jsx props
     "react/jsx-no-bind": [2, {"allowArrowFunctions": true}],
